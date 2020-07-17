@@ -6,7 +6,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-
+ul {
+    list-style: none;
+    border: 0;
+}
 /* Configurações do Header */
 
 .header a {
@@ -16,12 +19,14 @@
 }
 
 .header {
+    position: fixed;
     align-items: center;
     display: flex;
     width:100%;
     font-size: 20px;
     background-color: #2c4ab5;
     height: 50px;
+    z-index: 5;
 }
 
 .header img {
@@ -39,7 +44,6 @@
 
 .navbar ul {
     overflow: hidden;
-    list-style: none;
     display: flex;
 }
 
@@ -68,15 +72,17 @@
 /* Configurações do div1 */
 
 .div1 {
+    background-image: url(../img/Aptos.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
     width: 100%;
     height: 550px;
-    background-color: #ececec;
     display: flex;
     flex-direction: row;
 }
 
 .div1 ul {
-    list-style: none;
     justify-content: flex-start;
 }
 
@@ -89,6 +95,11 @@
     font-size: 34px;
 }
 
+#slogan {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
  /* Formulário de registro */
 
 .regist {
@@ -97,33 +108,20 @@
     font-size: 30px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
+    width: 21vw;
 }
 
 .div1 input {
     width: 20vw;
 }
 
+
 .regist ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    width: 92%;
-}
-
-#estado {
-    width: 12%;
-}
-#estado input {
-    width: 40%;
-}
-
-#cidade {
-    width: 90%;
-}
-
-#cidade input {
-    width: 95%;
+    justify-content: space-between;
+    width: 100%;
 }
 
 #confReg input{
@@ -148,8 +146,39 @@
 /* Configurações do div2 */
 
 .div2 {
-    background-image: url(../img/Aptos.jpg);
-    background-size: cover;
-    background-blend-mode: overlay;
-    background-attachment: fixed;
+    background-color: #ececec;
+    height: 50pw;
+}
+
+.div2 .aptos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.div2 img {
+    height: 15vw;
+}
+
+.aptos ul{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding: 20px;
+    margin: 0;
+}
+
+.div2 li {
+    margin: 1vw;
+    margin-top: 0;
+    font-size: 2vw;
+    text-align: center;
+    color: black;
+}
+
+.texto {
+    position: relative;
+    top: 30px;
 }
