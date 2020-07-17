@@ -162,6 +162,10 @@ ul {
     height: 15vw;
 }
 
+.aptos {
+    margin-bottom: 0;
+}
+
 .aptos ul{
     display: flex;
     flex-direction: row;
@@ -181,4 +185,47 @@ ul {
 .texto {
     position: relative;
     top: 30px;
+}
+
+/* Configurações do div3 */
+
+.div3 {
+    background-image: url(../img/Aptos2.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.div3 img {
+    height: 12vw;
+}
+
+.div3 h1 {
+    position: relative;
+    top: 40px;
+    text-align: center;
+    font-size: 2.5vw;
+
+}
+
+.div3 .etapas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5vw;
+}
+
+.div3 h2 {
+    text-align: center;
+}
+
+.div3 .etapas ul {
+    width: 15vw;
+    font-size: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
