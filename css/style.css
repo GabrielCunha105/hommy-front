@@ -258,7 +258,8 @@ ul {
 
 
 .div4 .msg {
-    height: 10vw;
+    width: 102%;
+    margin: 5px;
 }
 
 /* Configurações do footer */
