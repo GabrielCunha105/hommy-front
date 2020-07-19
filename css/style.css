@@ -218,8 +218,25 @@ ul {
 
 }
 
+@media (max-width: 1023px) {
+    .div2 ul {
+        flex-direction: column;
+    }
+    
+    .div2 p {
+        width: 80vw;
+        font-size: 3vw;
+    }
 
+    .div2 .baixar img{
+        height: 8vw;
+    }
 
+    .div2 img {
+        height: 60vw;
+        margin: 2vw;
+    }
+}
 
 /* Configurações do div3 */
 
