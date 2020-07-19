@@ -61,7 +61,6 @@ ul {
 
 .navbar input {
     position: relative;
-    left: -10vw;
     height: 30px;
     width: 20vw;
     border-radius: 15px;
@@ -162,10 +161,6 @@ ul {
     height: 15vw;
 }
 
-.aptos {
-    margin-bottom: 0;
-}
-
 .aptos ul{
     display: flex;
     flex-direction: row;
@@ -177,15 +172,12 @@ ul {
 .div2 li {
     margin: 1vw;
     margin-top: 0;
+    margin-bottom: 0;
     font-size: 2vw;
     text-align: center;
     color: black;
 }
 
-.texto {
-    position: relative;
-    top: 30px;
-}
 
 /* Configurações do div3 */
 
@@ -228,4 +220,51 @@ ul {
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+
+/* Configurações do div4 */
+
+.div4 {
+    background-color: #ececec;
+    height: 50pw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.div4 h1 {
+    text-align: center;
+    margin: 1vw;
+
+}
+
+.div4 ul {
+    text-align: center;
+    width: auto;
+    margin: 1vw;
+}
+
+.div4 ul ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+}
+.div4 ul ul li {
+    width: 50%;
+}
+
+.div4 ul ul input {
+    width: 94%;
+}
+
+.div4 .msg {
+    height: 10vw;
+    width: 30vw
+}
+
+.div4 .subUl {
+    display: flex;
+    flex-direction: row;
 }
