@@ -29,15 +29,16 @@ ul {
     z-index: 5;
 }
 
+
+.header img {
+    height: 50px;
+}
+
 @media (max-width: 1023px) {
     .header{
         justify-content: center;
     }
 
-}
-
-.header img {
-    height: 50px;
 }
 
 /* Configurações da Navbar */
@@ -49,12 +50,6 @@ ul {
     justify-content: space-between;
 }
 
-@media (max-width: 1023px) {
-    .navbar{
-        display: none;
-    }
-
-}
 
 .navbar ul {
     overflow: hidden;
@@ -82,6 +77,12 @@ ul {
     padding-left: 15px;
 }
 
+@media (max-width: 1023px) {
+    .navbar{
+        display: none;
+    }
+
+}
 /* Configurações do div1 */
 
 .div1 {
@@ -108,18 +109,17 @@ ul {
     font-size: 3vw;
 }
 
+#slogan {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
 @media (max-width: 1023px) {
     .div1 .logo img{
         width: 100%;
         padding-top: 80px;
         height: auto;
     }
-
-}
-
-#slogan {
-    color: white;
-    text-shadow: 2px 2px 2px black;
 }
 
  /* Formulário de registro */
@@ -141,14 +141,6 @@ ul {
 
 .div1 input {
     width: 20vw;
-}
-
-@media (max-width: 1023px) {
-    .div1 h1 {
-        font-size: 5vw;
-    }
-    
-
 }
 
 
@@ -176,6 +168,14 @@ ul {
     border-top: 15px;
     position: relative;
     top: 5px;
+}
+
+@media (max-width: 1023px) {
+    .div1 h1 {
+        font-size: 5vw;
+    }
+    
+
 }
 
 /* Configurações do div2 */
