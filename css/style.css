@@ -149,34 +149,40 @@ ul {
     height: 50pw;
 }
 
-.div2 .aptos {
+.div2 img {
+    height: 30vw;
+    margin: 2vw;
+}
+
+.div2 p {
+    width: 30vw;
+    font-size: 1.5vw;
+    color: #1f1f1f;
+}
+
+.div2 ul ul {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
 }
 
-.div2 img {
-    height: 15vw;
-}
-
-.aptos ul{
+.div2 .baixar {
     display: flex;
     flex-direction: row;
-    padding-top: 20px;
-    padding: 20px;
-    margin: 0;
 }
 
-.div2 li {
-    margin: 1vw;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 2vw;
-    text-align: center;
-    color: black;
+.div2 .baixar img{
+    height: 4vw;
 }
+
+.div2 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
 
 
 /* Configurações do div3 */
