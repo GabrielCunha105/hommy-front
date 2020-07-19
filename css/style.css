@@ -233,6 +233,11 @@ ul {
 
 }
 
+.div4 input {
+    width: 100%;
+    margin: 5px;
+}
+
 .div4 h1 {
     text-align: center;
     margin: 1vw;
@@ -241,30 +246,38 @@ ul {
 
 .div4 ul {
     text-align: center;
-    width: auto;
+    width: 40vw;
     margin: 1vw;
 }
 
-.div4 ul ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0;
-}
-.div4 ul ul li {
-    width: 50%;
-}
-
-.div4 ul ul input {
-    width: 94%;
-}
 
 .div4 .msg {
     height: 10vw;
-    width: 30vw
 }
 
-.div4 .subUl {
+/* Configurações do footer */
+
+footer {
+    color: white;
+    background-color: #2c4ab5;
+    height: 15pw;
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer ul {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    margin: 5px;
+}
+footer ul ul{
+    display: flex;
+    flex-direction: column;
 }
