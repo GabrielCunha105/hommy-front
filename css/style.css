@@ -10,6 +10,10 @@ ul {
     list-style: none;
     border: 0;
 }
+
+form{
+    list-style: none;
+}
 /* Configurações do Header */
 
 .header a {
@@ -200,6 +204,7 @@ ul {
     .regist {
         position: relative;
         top: -6vw;
+        width: 60vw;
     }
 
     .regist h1 {
