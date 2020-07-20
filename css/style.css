@@ -115,10 +115,36 @@ ul {
 }
 
 @media (max-width: 1023px) {
+    .div1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: max-content;
+    }
+
+    .div1 ul {
+        width: 60vw;
+    }
+
+    .div1 li {
+        width: 100%;
+    }
+
     .div1 .logo img{
         width: 100%;
         padding-top: 80px;
         height: auto;
+    }
+
+    .div1 .logo {
+        position: relative;
+        bottom: 6vw;
+    }
+
+    .div1 #slogan {
+        position: relative;
+        top: -3vw;
     }
 }
 
@@ -171,8 +197,18 @@ ul {
 }
 
 @media (max-width: 1023px) {
-    .div1 h1 {
+    .regist {
+        position: relative;
+        top: -6vw;
+    }
+
+    .regist h1 {
         font-size: 5vw;
+        text-align: start;
+    }
+
+    .regist input {
+        width: 100%;
     }
     
 
