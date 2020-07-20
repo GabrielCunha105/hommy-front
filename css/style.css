@@ -87,9 +87,9 @@ form{
     }
 
 }
-/* Configurações do div1 */
+/* Configurações do art1 */
 
-.div1 {
+.art1 {
     background-image: url(../img/Aptos.jpg);
     background-size: cover;
     background-blend-mode: overlay;
@@ -100,11 +100,11 @@ form{
     flex-direction: row;
 }
 
-.div1 ul {
+.art1 ul {
     justify-content: flex-start;
 }
 
-.div1 .logo{
+.art1 .logo{
     width: 50%;
     
     display: flex;
@@ -119,7 +119,7 @@ form{
 }
 
 @media (max-width: 1023px) {
-    .div1 {
+    .art1 {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -127,26 +127,26 @@ form{
         height: max-content;
     }
 
-    .div1 ul {
+    .art1 ul {
         width: 60vw;
     }
 
-    .div1 li {
+    .art1 li {
         width: 100%;
     }
 
-    .div1 .logo img{
+    .art1 .logo img{
         width: 100%;
         padding-top: 80px;
         height: auto;
     }
 
-    .div1 .logo {
+    .art1 .logo {
         position: relative;
         bottom: 6vw;
     }
 
-    .div1 #slogan {
+    .art1 #slogan {
         position: relative;
         top: -3vw;
     }
@@ -169,7 +169,7 @@ form{
     width: 150%;
 }
 
-.div1 input {
+.art1 input {
     width: 20vw;
 }
 
@@ -221,39 +221,39 @@ form{
 
 }
 
-/* Configurações do div2 */
+/* Configurações do art2 */
 
-.div2 {
+.art2 {
     background-color: #ececec;
     height: 50pw;
 }
 
-.div2 img {
+.art2 img {
     height: 30vw;
     margin: 2vw;
 }
 
-.div2 p {
+.art2 p {
     width: 30vw;
     font-size: 1.5vw;
     color: #1f1f1f;
 }
 
-.div2 ul ul {
+.art2 ul ul {
     display: flex;
     flex-direction: column;
 }
 
-.div2 .baixar {
+.art2 .baixar {
     display: flex;
     flex-direction: row;
 }
 
-.div2 .baixar img{
+.art2 .baixar img{
     height: 4vw;
 }
 
-.div2 ul {
+.art2 ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -262,28 +262,28 @@ form{
 }
 
 @media (max-width: 1023px) {
-    .div2 ul {
+    .art2 ul {
         flex-direction: column;
     }
     
-    .div2 p {
+    .art2 p {
         width: 80vw;
         font-size: 3vw;
     }
 
-    .div2 .baixar img{
+    .art2 .baixar img{
         height: 8vw;
     }
 
-    .div2 img {
+    .art2 img {
         height: 60vw;
         margin: 2vw;
     }
 }
 
-/* Configurações do div3 */
+/* Configurações do art3 */
 
-.div3 {
+.art3 {
     background-image: url(../img/Aptos2.jpg);
     background-size: cover;
     background-blend-mode: overlay;
@@ -292,11 +292,11 @@ form{
     text-shadow: 0px 0px 5px black;
 }
 
-.div3 img {
+.art3 img {
     height: 12vw;
 }
 
-.div3 h1 {
+.art3 h1 {
     position: relative;
     top: 40px;
     text-align: center;
@@ -304,18 +304,18 @@ form{
 
 }
 
-.div3 .etapas {
+.art3 .etapas {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 5vw;
 }
 
-.div3 h2 {
+.art3 h2 {
     text-align: center;
 }
 
-.div3 .etapas ul {
+.art3 .etapas ul {
     width: 15vw;
     font-size: 1.2vw;
     display: flex;
@@ -325,19 +325,19 @@ form{
 }
 
 @media (max-width: 1023px) {
-    .div3 h1 {
+    .art3 h1 {
         font-size: 6vw;
         margin: 20px;
         margin-top: 0;
     }
 
-    .div3 .etapas {
+    .art3 .etapas {
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
     }
 
-    .div3 .etapas li {
+    .art3 .etapas li {
         display: flex;
         justify-content: center;
         margin: 5px;
@@ -345,20 +345,20 @@ form{
         width: 50vw;
     }
 
-    .div3 .etapas h2 {
+    .art3 .etapas h2 {
         position: relative;
         top: -15px;
     }
 
-    .div3 .etapas p {
+    .art3 .etapas p {
         position: relative;
         top: -25px;
     }
 }
 
-/* Configurações do div4 */
+/* Configurações do art4 */
 
-.div4 {
+.art4 {
     background-color: #ececec;
     height: 50pw;
     display: flex;
@@ -367,7 +367,7 @@ form{
 
 }
 
-.div4 input {
+.art4 input {
     width: 100%;
     margin: 5px;
 }
@@ -386,13 +386,13 @@ form{
     background-color: #4861bd;
 }
 
-.div4 h1 {
+.art4 h1 {
     text-align: center;
     margin: 1vw;
 
 }
 
-.div4 ul {
+.art4 ul {
     position: relative;
     bottom: 1vw;
     display: flex;
@@ -404,12 +404,12 @@ form{
     margin: 2vw;
 }
 
-.div4 li {
+.art4 li {
     width: 100%;
 }
 
 
-.div4 .msg {
+.art4 .msg {
     width: 102%;
     margin: 5px;
 }
